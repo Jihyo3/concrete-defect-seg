@@ -1,0 +1,7 @@
+영상 351장 -> 원본 그룹 351개 (비슷한 사진 0쌍을 같은 그룹으로 묶음)
+원본 그룹 수  train: 280 / val: 35 / test: 36
+겹치는 원본 그룹  train-val: 0 / train-test: 0 / val-test: 0
+train 영상 280장 / 인스턴스 crack 208, efflorescence 303, spall_detach 525
+val   영상  35장 / 인스턴스 crack 18, efflorescence 36, spall_detach 61
+test  영상  36장 / 인스턴스 crack 30, efflorescence 33, spall_detach 54
+data.yaml: dataset_split/data.yaml

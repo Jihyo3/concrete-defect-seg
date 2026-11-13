@@ -1,0 +1,13 @@
+data/
+dataset/
+dataset_split/images/
+dataset_split/labels/
+runs/**/weights/
+runs/**/train_batch*.jpg
+runs/segment/runs/test/
+yolov8s-seg.pt
+logs/preds.pkl
+logs/step11_raw.txt
+__pycache__/
+.DS_Store
+*.html

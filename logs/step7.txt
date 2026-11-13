@@ -1,0 +1,6 @@
+검토한 영상: 420장 / 판단 보류로 뺀 영상: 69장 / 데이터셋에 넣은 영상: 351장
+클래스별 인스턴스 수:
+  0 crack: 256
+  1 efflorescence: 372
+  2 spall_detach: 640
+지운 제외 대상 폴리곤: 2491 개 {'Rust': 891, 'Cavity': 610, 'Weathering': 244, 'ExposedRebars': 146, 'Wetspot': 96, 'Graffiti': 85}

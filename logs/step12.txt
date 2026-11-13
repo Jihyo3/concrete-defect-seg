@@ -1,0 +1,4 @@
+학습한 에폭 수: 60
+best 에폭: 37 / val mask mAP50 0.093 / mask mAP50-95 0.032
+train seg_loss: 4.733 -> 2.359
+val seg_loss: 25.343 -> 최저 3.643 (에폭 20) -> 마지막 3.764

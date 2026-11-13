@@ -1,0 +1,6 @@
+crack          mask mAP50: 0.0250  mask mAP50-95: 0.0057
+efflorescence  mask mAP50: 0.0436  mask mAP50-95: 0.0089
+spall_detach   mask mAP50: 0.0262  mask mAP50-95: 0.0085
+mask mAP50   : 0.0316
+mask mAP50-95: 0.0077
+box mAP50    : 0.0574

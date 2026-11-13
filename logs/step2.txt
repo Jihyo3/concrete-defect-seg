@@ -1,0 +1,3 @@
+dacl10k 주석 영상 수: 7910 Counter({'train': 6935, 'validation': 975})
+고른 영상 수: 420
+저장: data/images/*.jpg, data/labels.json

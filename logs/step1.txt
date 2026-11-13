@@ -1,0 +1,5 @@
+torch: 2.14.0
+cuda: False
+mps (맥 GPU): True
+model loaded
+task: segment / 파라미터 수: 11,821,056

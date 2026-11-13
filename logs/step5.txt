@@ -1,0 +1,5 @@
+figures/class_examples.png 저장
+판단 보류 영상: 69 장 -> hold_list.csv
+  망상: 51
+  들뜸: 16
+  어두움: 5

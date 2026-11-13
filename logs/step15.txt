@@ -1,0 +1,12 @@
+val: 영상 35장 / 정답 ON 영상 crack 14, efflorescence 15, spall_detach 24
+test: 영상 36장 / 정답 ON 영상 crack 16, efflorescence 16, spall_detach 26
+
+[동작 확인] val, thr=0.5
+crack          TP=2 FP=0 FN=12 TN=21 F1=0.250
+efflorescence  TP=2 FP=0 FN=13 TN=20 F1=0.235
+spall_detach   TP=5 FP=2 FN=19 TN=9 F1=0.323
+
+[val 예측 confidence 분포] 영상별 클래스 최고 confidence
+crack          중앙값 0.099 / 최대 0.575
+efflorescence  중앙값 0.119 / 최대 0.844
+spall_detach   중앙값 0.220 / 최대 0.801

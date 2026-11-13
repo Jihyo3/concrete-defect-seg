@@ -1,0 +1,37 @@
+crack | thr=0.001 | F1=0.571 | FP=21 | FN=0
+crack | thr=0.004 | F1=0.622 | FP=17 | FN=0
+crack | thr=0.010 | F1=0.605 | FP=16 | FN=1
+crack | thr=0.020 | F1=0.615 | FP=13 | FN=2
+crack | thr=0.060 | F1=0.629 | FP=10 | FN=3
+crack | thr=0.100 | F1=0.645 | FP=7 | FN=4
+crack | thr=0.200 | F1=0.538 | FP=5 | FN=7
+crack | thr=0.300 | F1=0.545 | FP=2 | FN=8
+crack | thr=0.400 | F1=0.526 | FP=0 | FN=9
+crack | thr=0.500 | F1=0.250 | FP=0 | FN=12
+>> crack 선택 임계값: 0.1 (F1=0.645)
+
+efflorescence | thr=0.001 | F1=0.600 | FP=20 | FN=0
+efflorescence | thr=0.004 | F1=0.622 | FP=16 | FN=1
+efflorescence | thr=0.010 | F1=0.591 | FP=16 | FN=2
+efflorescence | thr=0.020 | F1=0.619 | FP=14 | FN=2
+efflorescence | thr=0.060 | F1=0.650 | FP=12 | FN=2
+efflorescence | thr=0.100 | F1=0.667 | FP=9 | FN=3
+efflorescence | thr=0.200 | F1=0.583 | FP=2 | FN=8
+efflorescence | thr=0.300 | F1=0.476 | FP=1 | FN=10
+efflorescence | thr=0.400 | F1=0.316 | FP=1 | FN=12
+efflorescence | thr=0.500 | F1=0.235 | FP=0 | FN=13
+>> efflorescence 선택 임계값: 0.1 (F1=0.667)
+
+spall_detach | thr=0.001 | F1=0.814 | FP=11 | FN=0
+spall_detach | thr=0.004 | F1=0.814 | FP=11 | FN=0
+spall_detach | thr=0.010 | F1=0.828 | FP=10 | FN=0
+spall_detach | thr=0.020 | F1=0.830 | FP=7 | FN=2
+spall_detach | thr=0.060 | F1=0.824 | FP=6 | FN=3
+spall_detach | thr=0.100 | F1=0.824 | FP=6 | FN=3
+spall_detach | thr=0.200 | F1=0.682 | FP=5 | FN=9
+spall_detach | thr=0.300 | F1=0.364 | FP=3 | FN=18
+spall_detach | thr=0.400 | F1=0.323 | FP=2 | FN=19
+spall_detach | thr=0.500 | F1=0.323 | FP=2 | FN=19
+>> spall_detach 선택 임계값: 0.02 (F1=0.830)
+
+최종 임계값: {'crack': 0.1, 'efflorescence': 0.1, 'spall_detach': 0.02}

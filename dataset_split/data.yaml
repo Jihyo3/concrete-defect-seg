@@ -1,0 +1,8 @@
+path: /Users/jeongjihyo/semg-auth/step3/dataset_split
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: crack
+  1: efflorescence
+  2: spall_detach

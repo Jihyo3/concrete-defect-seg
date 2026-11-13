@@ -1,0 +1,20 @@
+crack | FP=4 | FN=10
+  FP_1 dacl10k_v2_train_6691 최고 conf 0.423 / 정답 클래스 []
+  FP_2 dacl10k_v2_train_4737 최고 conf 0.215 / 정답 클래스 ['efflorescence']
+  FP_3 dacl10k_v2_train_1497 최고 conf 0.139 / 정답 클래스 ['efflorescence', 'spall_detach']
+  FN_1 dacl10k_v2_train_0282 최고 conf 0.007 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']
+  FN_2 dacl10k_v2_train_0296 최고 conf 0.008 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']
+  FN_3 dacl10k_v2_train_1314 최고 conf 0.012 / 정답 클래스 ['crack']
+efflorescence | FP=6 | FN=8
+  FP_1 dacl10k_v2_train_1959 최고 conf 0.283 / 정답 클래스 ['crack', 'spall_detach']
+  FP_2 dacl10k_v2_train_1108 최고 conf 0.192 / 정답 클래스 ['spall_detach']
+  FP_3 dacl10k_v2_train_4211 최고 conf 0.137 / 정답 클래스 []
+  FN_1 dacl10k_v2_train_6519 최고 conf 0.013 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']
+  FN_2 dacl10k_v2_train_6559 최고 conf 0.018 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']
+  FN_3 dacl10k_v2_train_2473 최고 conf 0.019 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']
+spall_detach | FP=9 | FN=2
+  FP_1 dacl10k_v2_train_0201 최고 conf 0.775 / 정답 클래스 ['efflorescence']
+  FP_2 dacl10k_v2_train_4737 최고 conf 0.722 / 정답 클래스 ['efflorescence']
+  FP_3 dacl10k_v2_train_6691 최고 conf 0.707 / 정답 클래스 []
+  FN_1 dacl10k_v2_train_6263 최고 conf 0.004 / 정답 클래스 ['crack', 'spall_detach']
+  FN_2 dacl10k_v2_train_6559 최고 conf 0.017 / 정답 클래스 ['crack', 'efflorescence', 'spall_detach']

@@ -1,0 +1,18 @@
+Ultralytics 8.4.210 🚀 Python-3.14.7 torch-2.14.0 MPS (Apple M4)
+YOLOv8s-seg summary (fused): 85 layers, 11,780,761 parameters, 0 gradients, 39.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 786.4±75.5 MB/s, size: 440.7 KB)
+
+[34m[1mval: [0mNew cache created: /Users/jeongjihyo/semg-auth/step3/dataset_split/labels/test.cache
+
+                   all         36        117      0.135     0.0972     0.0574     0.0205       0.11     0.0923     0.0316    0.00769
+                 crack         16         30      0.198      0.133     0.0849     0.0288      0.126        0.1      0.025    0.00573
+         efflorescence         16         33      0.145      0.121     0.0531     0.0204      0.127      0.121     0.0436    0.00887
+          spall_detach         26         54     0.0608      0.037     0.0343     0.0123     0.0765     0.0556     0.0262    0.00846
+Speed: 0.8ms preprocess, 31.5ms inference, 0.0ms loss, 96.3ms postprocess per image
+Results saved to [1m/Users/jeongjihyo/semg-auth/step3/runs/segment/runs/test[0m
+crack          mask mAP50: 0.0250  mask mAP50-95: 0.0057
+efflorescence  mask mAP50: 0.0436  mask mAP50-95: 0.0089
+spall_detach   mask mAP50: 0.0262  mask mAP50-95: 0.0085
+mask mAP50   : 0.0316
+mask mAP50-95: 0.0077
+box mAP50    : 0.0574
